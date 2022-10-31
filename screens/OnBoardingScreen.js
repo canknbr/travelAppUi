@@ -1,11 +1,4 @@
-import {
-  View,
-  Text,
-  StyleSheet,
-  StatusBar,
-  ImageBackground,
-  Pressable,
-} from 'react-native';
+import {View, Text, StyleSheet, ImageBackground, Pressable} from 'react-native';
 import React from 'react';
 import {useNavigation} from '@react-navigation/native';
 
@@ -13,7 +6,6 @@ const OnBoardingScreen = () => {
   const navigation = useNavigation();
   return (
     <View style={{flex: 1}}>
-      <StatusBar barStyle="light-content" backgroundColor="rgba(0,0,0,0)" />
       <ImageBackground
         source={require('../assets//onboardImage.jpg')}
         style={styles.bgImage}>

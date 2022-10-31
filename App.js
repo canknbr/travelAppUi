@@ -4,6 +4,7 @@ const Stack = createNativeStackNavigator();
 import HomeScreen from './screens/HomeScreen';
 import OnBoardingScreen from './screens/OnBoardingScreen';
 import DetailsScreen from './screens/DetailsScreen';
+import {StatusBar} from 'react-native';
 const App = () => {
   return (
     <NavigationContainer>
